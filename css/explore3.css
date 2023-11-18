@@ -1,0 +1,278 @@
+header {
+    background-image: url(../img/b-c\ fon.png);
+    width: 1440px;
+    height: 422px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1244px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+.container .logo h1 {
+    color: blue;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.container .logo p {
+    position: relative;
+    color: orange;
+    top: -37px;
+    left: 2px;
+    font-size: 20px;
+}
+
+nav {
+    margin-left: 400px;
+    margin-top: 65px;
+}
+
+nav ol {
+    display: flex;
+    gap: 70px;
+}
+
+nav ol li {
+    list-style: none;
+    
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+}
+
+nav ol li a:hover {
+    color: chartreuse;
+}
+
+.Destinations {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+ #h1 {
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+/* ONE */
+
+.heading > h1 {
+    font-size: 70px;
+}
+
+.heading > h1::before {
+    content: 'Where do';
+    color: orange;
+}
+
+/* TWO */
+
+.content > p {
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 70px;
+    line-height: 30px;
+}
+
+.sellect {
+   width: 258px;
+   height: 60px;
+   font-weight: bold;
+   border: 1px solid rgb(99, 99, 99);
+   font-size: 16PX;   
+}
+
+.sellect:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* THREE */
+
+ul {
+    display: flex;
+    gap: 50px;
+}
+
+ul  li {
+    width: 383px;
+    height: 563.12px;
+    list-style: none;
+}
+
+.box {
+    position: relative;
+    display: flex;
+}
+
+.in1 {
+    width: 380px;
+    height: 360px;
+}
+
+.in_1 {
+    position: absolute;
+    bottom: -18px;
+    left: -12px;
+    box-shadow: 20px;
+}
+
+/* FOUR */
+
+.images {
+    background-image: url(../img/images.png);
+    width: 1440px;
+    height: 226px;
+    margin: 0 auto;
+}
+
+.images > button {
+    width: 201px;
+    height: 52px;
+    background-color: blue;
+    color: white;
+    margin-left: 625px;
+    margin-top: 90px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.images > button:hover {
+    background-color: aqua;
+    color: blue;
+}
+
+/* FIVE */
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+input {
+    width: 230px;
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-left: 150PX;
+}
+
+.junat button {
+    width: 230px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16PX;
+    color: white;
+    border: none;
+}
+
+.junat button:hover {
+    background-image: linear-gradient(rgb(4, 105, 105), rgb(13, 177, 177), rgb(4, 105, 105));
+    color: blue;
+}
+
+/* CHIZIQ */
+
+.hr {
+    width: 1440px;
+    height: 1px;
+    background-color: rgb(167, 166, 166);
+    margin: 0 auto;
+}
+
+/* SIX */
+
+.logo1 {
+    display: flex;
+}
+
+.container .logo1 h1 {
+    color: blue;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.container .logo1 p {
+    position: relative;
+    color: orange;
+    top: -37px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.travel {
+    margin-left: 300px;
+    display: flex;
+    gap: 240px;
+    margin-top: 60px;
+}
+
+.travel li {
+    list-style: none;
+} 
+
+.travel  li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.travel  li a:hover {
+    color: aqua;
+}
+
+/* MAIN END */
+
+/* FOOTER START */
+
+footer {
+    width: 1440px;
+    height: 472px;
+    margin: 0 auto;
+    background-color: rgb(99, 99, 99); 
+}
+
+footer > ol {
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+footer > ol > li {
+    list-style: none;
+    color: white;
+}
+
+footer > img {
+    margin-left: 200px;
+}
+
+/* FOOTER END */

@@ -1,0 +1,270 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.bck-fon {
+    width: 1440px;
+    height: 352px;
+    background-image: url(../img/tips.png);
+}
+
+.logo img {
+    width: 58px;
+    height: 43px;
+    margin-left: 162px;
+    padding-top: 28px;
+}
+
+.logo h1 {
+    color: blue;
+    margin-left: 102px;
+    margin-top: -47px;
+}
+
+.logo p {
+    color: orange;
+    margin-left: 102px;
+    margin-top: -32px;
+}
+
+nav {
+    display: flex;
+    margin-left: 650px;
+    margin-top: -60px;
+}
+
+nav ol {
+     display: flex;
+     align-items: center;
+     gap: 80px;
+}
+
+nav ol li {
+    list-style: none ;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+}
+
+nav ol li a:hover {
+    color: chartreuse;
+}
+
+.contact{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+header h3 {
+    font-size: 64px;
+    color: white;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+main h3 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.informations {
+    width: 415px;
+    height: 56px;
+}
+
+input {
+    width: 410px;
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.in {
+    width: 410px;
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-left: 720PX;
+    position: relative;
+    top: -100px;
+}
+
+.email {
+    width: 410px;
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-left: 250px;
+    position: relative;
+    top: -90px;
+}
+
+.sub {
+    width: 410px;
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-left: 720PX;
+    position: relative;
+    top: -190px;
+}
+
+.message {
+    width: 875px;
+    height: 212px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    position: relative;
+    top: -190px;
+}
+
+button {
+    width: 124px;
+    height: 33px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+   border: 1px solid;
+   margin-left: 630px;
+   position: relative;
+   top: -150px;
+}
+
+.images {
+    margin-top: 600px;
+}   
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+.junat>input {
+    width: 230px;
+    height: 55px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-left: 150px;
+   position: relative;
+   top: -150px;
+   left: 600px;
+}
+
+.junat button {
+    width: 230px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16PX;
+    color: white;
+    border: none;
+    margin-top: 50px;
+}
+
+.junat button:hover {
+    background-image: linear-gradient(rgb(4, 105, 105), rgb(13, 177, 177), rgb(4, 105, 105));
+    color: blue;
+}
+
+.hr {
+    width: 1440px;
+    height: 1px;
+    background-color: rgb(167, 166, 166);
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+
+
+.logo1 {
+    display: flex;
+    padding-top: -800px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.logo1 h1 {
+    color: blue;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.logo1 p {
+    position: relative;
+    color: orange;
+    top: -37px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.travel {
+    margin-left: 300px;
+    display: flex;
+    gap: 240px;
+    margin-top: 60px;
+}
+
+
+
+.travel li {
+    list-style: none;
+    margin-left: 100px;
+} 
+
+.travel  li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.travel  li a:hover {
+    color: aqua;
+}
+
+
+/* FOOTER START */
+
+footer {
+    width: 1440px;
+    height: 472px;
+    margin: 0 auto;
+    background-color: rgb(99, 99, 99); 
+    /* margin-top: -300px; */
+}
+
+footer > ol {
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+footer > ol > li {
+    list-style: none;
+    color: white;
+}
+
+footer > img {
+    margin-left: 200px;
+}
+
+/* FOOTER END */

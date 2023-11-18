@@ -1,0 +1,213 @@
+header {
+    background-image: url(../tipsimg/header\ b-c\ fon.png);
+    width: 1440px;
+    height: 422px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1244px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+
+.container .logo h1 {
+    color: blue;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.container  .logo p {
+    position: relative;
+    color: orange;
+    top: -37px;
+    left: 2px;
+    font-size: 20px;
+}
+
+nav {
+    margin-left: 400px;
+    margin-top: 65px;
+}
+
+nav ol {
+    display: flex;
+    gap: 70px;
+}
+
+nav ol li {
+    list-style: none;
+    
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+}
+
+nav ol li a:hover {
+    color: chartreuse;
+}
+
+.Destinations {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+ #h1 {
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+
+/* MAIN START */
+
+/* ONE */
+
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.content {
+    margin-left: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 55px;
+}
+
+/* TWO */
+
+ul {
+    position: relative;
+    display: flex;
+    gap: 120px;
+    margin-top: 30px;
+    left: -110px;
+}
+
+.box {
+    position: relative;
+    list-style: none;
+    width: 374px;
+    height: 467px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px 10px #bababa;
+    
+}
+
+.box img {
+    width: 374px;
+    height: 221px;
+}
+
+.box > p {
+    color: dimgray;
+    margin-left: 20px;
+}
+
+h3 {
+    width: 374px;
+    height: 82px;
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.box > .past {
+    width: 374px;
+    height: 60px;
+}
+
+
+/* MAIN END */
+
+.hr {
+    width: 1440px;
+    height: 1px;
+    background-color: rgb(167, 166, 166);
+    margin: 0 auto;
+}
+
+
+
+.logo1 {
+    display: flex;
+}
+
+.container .logo1 h1 {
+    color: blue;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.container .logo1 p {
+    position: relative;
+    color: orange;
+    top: -37px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.travel {
+    margin-left: 300px;
+    display: flex;
+    gap: 240px;
+    margin-top: 60px;
+}
+
+.travel li {
+    list-style: none;
+} 
+
+.travel  li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.travel  li a:hover {
+    color: aqua;
+}
+
+
+/* FOOTER START */
+
+footer {
+    width: 1440px;
+    height: 472px;
+    margin: 0 auto;
+    background-color: rgb(99, 99, 99); 
+}
+
+footer > ol {
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+footer > ol > li {
+    list-style: none;
+    color: white;
+}
+
+footer > img {
+    margin-left: 200px;
+}
+
+/* FOOTER END */

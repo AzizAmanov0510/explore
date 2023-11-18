@@ -1,0 +1,267 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.bck-fon {
+    width: 1440px;
+    height: 547px;
+    background-image: url(../eplore2/bbck-fon.png);
+}
+
+.logo img {
+    width: 58px;
+    height: 43px;
+    margin-left: 162px;
+    padding-top: 28px;
+}
+
+.logo h1 {
+    color: blue;
+    margin-left: 102px;
+    margin-top: -47px;
+}
+
+.logo p {
+    color: orange;
+    margin-left: 102px;
+    margin-top: -32px;
+}
+
+nav {
+    display: flex;
+    margin-left: 650px;
+    margin-top: -60px;
+}
+
+nav ol {
+     display: flex;
+     align-items: center;
+     gap: 80px;
+}
+
+nav ol li {
+    list-style: none ;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+}
+
+nav ol li a:hover {
+    color: chartreuse;
+}
+
+.about-us {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+header h3 {
+    font-size: 64px;
+    color: white;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+.hero h2 {
+    color: rgb(78, 75, 102);
+    font-size: 32px;
+    margin-left: 40px;
+    padding-top: 80px;
+
+}
+
+.hero h2 b {
+    color: orange;
+}
+
+.hero p {
+    font-size: 17px;
+    margin-left: 900px;
+    margin-top: -140px;
+}
+
+.reday img {
+    width: 1300px;
+    height: 472px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.reday p {
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.first h3 {
+    font-size: 32px;
+    margin-left: 60px;
+    margin-top: 180px;
+}
+
+.first p {
+    font-size: 18px;
+    margin-left: 60px;
+}
+
+.second h3 {
+    font-size: 32px;
+    margin-left: 780px;
+    margin-top: -420px;
+}
+
+.second p {
+    font-size: 18px;
+    margin-left: 780px;
+}
+
+.four h3 {
+    font-size: 32px;
+    margin-left: 780px;
+    margin-top: -550px;
+}
+
+.four p {
+    font-size: 14px;
+    margin-left: 780px;
+}
+
+.wb-st h1 {
+    margin-left: 780px;
+}
+
+
+.wb-st ol {
+    margin-left: 780px;
+    margin-top: 45px;
+}
+
+.wb-st ol li {
+    list-style: none;
+}
+
+.brends {
+    margin-top: 180px;
+    margin-left: 80px;
+}
+
+.tesla {
+    margin-left: 120px;
+}
+
+.kitkat {
+    margin-left: 120px;
+}
+
+.boss {
+    margin-left: 120px;
+}
+
+.hero-two h2 {
+    color: rgb(78, 75, 102);
+    font-size: 48px;
+    margin-left: 40px;
+    padding-top: 80px;
+
+}
+
+.hero-two h2 b {
+    color: orange;
+}
+
+.hero-two p {
+    font-size: 19px;
+    margin-left: 700px;
+    margin-top: -140px;
+}
+
+.kim ul li {
+    list-style: none;
+   
+}
+
+.kim ul  {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 120px;
+    gap: 180px;
+
+}
+
+.images {
+    margin-top: 120px;
+}
+
+.logo1 {
+    display: flex;
+    margin-left: 150px;
+}
+
+.container .logo1 h1 {
+    color: blue;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.container .logo1 p {
+    position: relative;
+    color: orange;
+    top: -37px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.travel {
+    margin-left: 450px;
+    display: flex;
+    gap: 240px;
+    margin-top: -90px;
+}
+
+.travel li {
+    list-style: none;
+} 
+
+.travel  li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.travel  li a:hover {
+    color: aqua;
+}
+
+/* FOOTER START */
+
+footer {
+    width: 1440px;
+    height: 472px;
+    margin: 0 auto;
+    background-color: rgb(99, 99, 99); 
+}
+
+footer > ol {
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+footer > ol > li {
+    list-style: none;
+    color: white;
+}
+
+footer > img {
+    margin-left: 200px;
+}
+
+/* FOOTER END */
